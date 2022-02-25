@@ -112,3 +112,19 @@ let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_operators = 1
+
+" Coc nvim extensions
+let g:coc_global_extensions = [
+	\'coc-html',
+	\'coc-yaml',
+	\'coc-tsserver',
+	\'coc-solargraph',
+	\'coc-sh',
+	\'coc-pyright',
+	\'coc-omnisharp',
+	\'coc-lua',
+	\'coc-json',
+	\'coc-go',
+	\'coc-docker',
+	\'coc-css'
+	\]
