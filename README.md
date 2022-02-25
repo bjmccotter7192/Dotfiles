@@ -17,4 +17,5 @@
 	- Navigate to `~/.local/share/nvim/plugged/coc.nvim`
 	- run `yarn install`
 	- run `yarn build`
-	- **NOTE** You will need to install all the coc packages yourself with `:CocInstall <coc-package>`
+	- **NOTE** Any new coc-<package> that is not listed in the init.vim config needs to be installed
+	  using `:CocInstall coc-<package>`
