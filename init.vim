@@ -1,11 +1,11 @@
-:set number
-:set relativenumber
-:set mouse+=a
-:set tabstop=4
-:set shiftwidth=4
-:filetype indent on
-:set foldmethod=syntax
-:set foldlevelstart=99
+set number
+set relativenumber
+set mouse+=a
+set tabstop=4
+set shiftwidth=4
+filetype indent on
+set foldmethod=syntax
+set foldlevelstart=99
 
 " Auto formatting for Markdown files
 augroup auFileTypes
@@ -40,8 +40,8 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go highlighting and buildin
 call plug#end()
 
 set encoding=UTF-8
-:set background=dark
-:set termguicolors
+set background=dark
+set termguicolors
 colorscheme deep-space
 
 nnoremap <C-p> :Files<CR>
@@ -112,3 +112,19 @@ let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_operators = 1
+
+" Coc nvim extensions
+let g:coc_global_extensions = [
+	\'coc-html',
+	\'coc-yaml',
+	\'coc-tsserver',
+	\'coc-solargraph',
+	\'coc-sh',
+	\'coc-pyright',
+	\'coc-omnisharp',
+	\'coc-lua',
+	\'coc-json',
+	\'coc-go',
+	\'coc-docker',
+	\'coc-css'
+	\]
