@@ -99,8 +99,8 @@ let g:ctrlsf_auto_focus = {
 " Blamer Settings
 let g:blamer_enabled = 1
 let g:blamer_delay = 1000 
-let g:blamer_show_in_insert_mode = 0
-let g:blamer_show_in_visual_mode = 0
+let g:blamer_show_in_insert_modes = 0
+let g:blamer_show_in_visual_modes = 0
 let g:blamer_date_format = '%m/%d/%y'
 
 " Python Highlighting
