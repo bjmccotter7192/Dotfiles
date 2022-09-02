@@ -20,3 +20,6 @@ if [ -d $BUILD ]; then
 fi
 
 echo "Finished removing all directories, please run your npm/yarn install again!"
+
+echo "\nCleaning up yarn cache"
+yarn cache clean --all
